@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+    font-family: "Rubik", sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+  }
+
+#toDoTitle {
+
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+}
+
+#myNewInput {
+
+    width:35%;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#addClearButtons {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+#addButton {
+
+      align-items: center;
+      background-color: #69ce84;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #111;
+      cursor: pointer;
+      display: flex;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    #clearTaskButton {
+
+        gap: 20px;
+        align-content: space-between;
+        align-items: center;
+        background-color: #ee5653;
+        border: 2px solid #111;
+        border-radius: 8px;
+        box-sizing: border-box;
+        color: #111;
+        cursor: pointer;
+        font-size: 16px;
+        height: 48px;
+        justify-content: center;
+        line-height: 24px;
+        max-width: 100%;
+        padding: 0 25px;
+
+      }
+    
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#myTaskContainer {
+
+display: flex;
+flex-direction: column;
+column-gap: 20px;
+
+  }
+
+
